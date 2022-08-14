@@ -12,21 +12,27 @@ const Header = () => {
         <S.HeaderWrapper>
             <S.HeaderContainer>
                 <S.HeaderTitleContent>
-                    <S.TitlHeader>έναστρος</S.TitlHeader>
-                    <Divider
-                        style={{ backgroundColor: '#fafafa', margin: '16px 0' }}
-                    />
+                    <S.TitleHeader>έναστρος</S.TitleHeader>
+                    <Divider style={S.DividerStyle} />
                     <S.SubtitleHeader>Qual sua constelação?</S.SubtitleHeader>
                 </S.HeaderTitleContent>
-                <S.HeaderImage src="/background-header.jpg" />
+                <S.HeaderImage
+                    src="/background-header.jpg"
+                    alt="Céu estrelado com um viajante observando"
+                />
             </S.HeaderContainer>
             <S.HeaderButtonContent>
                 <Button
-                    type="primary"
+                    ghost
                     size="large"
                     shape="circle"
                     icon={<DownOutlined />}
-                    onClick={() => console.log(' DOWN')}
+                    onClick={() =>
+                        window.scrollTo({
+                            top: 850,
+                            behavior: 'smooth',
+                        })
+                    }
                 />
             </S.HeaderButtonContent>
         </S.HeaderWrapper>
