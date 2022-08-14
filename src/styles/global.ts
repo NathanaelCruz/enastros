@@ -1,4 +1,7 @@
+// Lib
 import { createGlobalStyle } from 'styled-components'
+
+// CSS static Ant D
 import 'antd/dist/antd.css'
 
 export const GlobalStyle = createGlobalStyle`
