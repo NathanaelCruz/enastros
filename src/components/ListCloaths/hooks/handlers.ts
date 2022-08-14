@@ -10,7 +10,7 @@ import {
     useCloathList,
     useModal,
     useRefreshList,
-} from '../store/listCLoatState'
+} from '../store/listCloathState'
 
 // Lib
 import { addDays, format } from 'date-fns'

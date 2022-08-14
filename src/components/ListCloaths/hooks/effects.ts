@@ -7,7 +7,7 @@ import {
     useRealmIconCurrency,
     useRealms,
     useRefreshList,
-} from '../store/listCLoatState'
+} from '../store/listCloathState'
 
 export const useListCloathEffect = () => {
     const { api } = useApi()
