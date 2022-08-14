@@ -1,0 +1,149 @@
+{
+    "realms": [
+        {
+            "id": 1,
+            "name": "atena",
+            "friendly_name": "Atena",
+            "icon": "/atena-icon-realm.png"
+        },
+        {
+            "id": 2,
+            "name": "hades",
+            "friendly_name": "Hades",
+            "icon": "/hades-icon-realm.png"
+        },
+        {
+            "id": 3,
+            "name": "sonotas",
+            "friendly_name": "Sem Reinos",
+            "icon": "sonota-icon-realm.jpg"
+        }
+    ],
+    "cloaths": [
+        {
+            "id": 1,
+            "cloath_name": "Cérbero",
+            "realmId": 1,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "B-1",
+            "rating": "Armadura de Prata",
+            "availability": "Disponível",
+            "particularity": null,
+            "state": "Completa",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 2,
+            "cloath_name": "Pégaso",
+            "realmId": 1,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "C-1",
+            "rating": "Armadura de Bronze",
+            "availability": "Disponível",
+            "particularity": null,
+            "state": "Incompleta",
+            "lost_pieces": "Elmo",
+            "status": "livre"
+        },
+        {
+            "id": 3,
+            "cloath_name": "Raposa",
+            "realmId": 1,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "X-1",
+            "rating": "Armadura de Bronze",
+            "availability": "Disponível",
+            "particularity": null,
+            "state": "Perdida",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 4,
+            "cloath_name": "Kamui de Atena",
+            "realmId": 1,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "EX",
+            "rating": "Armadura Divina",
+            "availability": "Bloqueada",
+            "particularity": "Cajado, Escudo, Asas",
+            "state": "Perdida",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 5,
+            "cloath_name": "Kamui de Hades",
+            "realmId": 2,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "EX",
+            "rating": "Armadura Divina",
+            "availability": "Bloqueada",
+            "particularity": "Espada, Asas",
+            "state": "Perdida",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 6,
+            "cloath_name": "Besouro Mortal",
+            "realmId": 2,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "B-2",
+            "rating": "Sapuris Estrela Celeste Menor",
+            "availability": "Disponível",
+            "particularity": "Chifres",
+            "state": "Completa",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 7,
+            "cloath_name": "Esfinge",
+            "realmId": 2,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "B-2",
+            "rating": "Sapuris Estrela Celeste Menor",
+            "availability": "Disponível",
+            "particularity": "Harpa",
+            "state": "Incompleta",
+            "lost_pieces": "Elmo",
+            "status": "livre"
+        },
+        {
+            "id": 8,
+            "cloath_name": "Larry",
+            "realmId": 2,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "Z-2",
+            "rating": "Sapuris Estrela Sombria do Submundo",
+            "availability": "Disponível",
+            "particularity": "Lança",
+            "state": "Perdida",
+            "lost_pieces": null,
+            "status": "livre"
+        },
+        {
+            "id": 9,
+            "cloath_name": "Cristal",
+            "realmId": 3,
+            "image": "https://via.placeholder.com/262x159.png/000000/fafafa/?text=Armadura",
+            "rank": "B-4",
+            "rating": "Sonota",
+            "availability": "Disponível",
+            "particularity": null,
+            "state": "Completa",
+            "lost_pieces": null,
+            "status": "livre"
+        }
+    ],
+    "reservations": [
+        {
+            "id": 1,
+            "cloathId": 1,
+            "user_name": "taleCross",
+            "end_booking": "2022-08-12 11:08:20"
+        }
+    ]
+}
