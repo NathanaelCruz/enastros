@@ -5,6 +5,7 @@
 ---
 
 Pequeno sistema para modelar a ideia de seleção de armaduras dos Cavaleiros do Zodíaco, dentro de um fórum de storytelling, que tinha essa necessidade.
+![image](https://user-images.githubusercontent.com/40793400/184518456-b47f959d-8b0a-42e9-9b1a-390d69cfb00c.png)
 
 ## Objetivos 🎯
 
