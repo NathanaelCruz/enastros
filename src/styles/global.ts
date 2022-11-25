@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     body,
     #root{
         width: 100vw;
-        font-family: 'Poppins', sans-serif;;
+        font-family: 'Poppins', sans-serif;
     }
 
 
